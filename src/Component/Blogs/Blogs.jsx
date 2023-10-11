@@ -7,19 +7,19 @@ const Blogs = () => {
     useEffect(()=>{
         fetch('/public/data.json')
         .then(res =>res.json())
-        .then(data =>console.log(data))
+        .then(data =>setBlogs(data))
     
     }, [])
 
     return (
         <div>
-            <div className='mx-[100px]'>
+            <div className='mx-[70px]'>
                 <div  className=' grid p-5 justify-center center lg:grid-cols-5 flex gap-4'>
                     <div className='col-span-4  bg-white'>
                        <div className=' p-3 bg-slate-200 text-center text-5xl font-bold'>
-                                <h1> All Blogs </h1>
+                                <h1> All Blogs {blogs.length}</h1>
                        </div>
-                    <div>
+                    <div className='p-5 bg-slate-200 mt-5'>
                         {
                             blogs.map( blog=> <BlogItem 
                               key={blog.id}
