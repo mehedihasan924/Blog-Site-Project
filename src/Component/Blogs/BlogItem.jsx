@@ -1,9 +1,14 @@
 import { data } from 'autoprefixer';
 import React from 'react';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { addToDb, removeFromDb } from '../../Utilitys/fackDB';
-const BlogItem = ({Items}) => {
-        const {id, img ,  title, admin_img, name}=Items
-  
+const BlogItem = (props) => {
+        console.log(props)
+        const {id, img ,  title, admin_img, name}=props.Items
+        const  hendleAddTocart= props.hendleAddTocart
+
+
         const addToCart=( id)=>{
             addToDb(id)
         }
@@ -29,6 +34,8 @@ const BlogItem = ({Items}) => {
                        <div>
                            <h1 className=' text-xl '> Name:{name}</h1>
                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            <button to={`/blog/${id}`}>Blog details... </button>
+                          <button className='bg-slate-400 mx-5 p-2' onClick={()=>hendleAddTocart(props.Items)}> Add  <FontAwesomeIcon icon={faShoppingCart} /></button>
                         </div>                             
                     </span> 
                     <span>

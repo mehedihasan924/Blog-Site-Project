@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import BlogItem from './BlogItem';
-
+import { getTotal } from '../../Utilitys/fackDB';
+import Cart from '../Cart/Cart';
 const Blogs = () => {
 
     const [ blogs, setBlogs]=useState([])  
@@ -11,6 +12,18 @@ const Blogs = () => {
     
     }, [])
 
+    const [cart, setCart]=useState([])
+
+        const hendleAddTocart=( Items)=>{
+            // console.log( Items)
+            const newCart=[...cart, Items];
+            setCart(newCart);
+        }
+
+
+        
+    // const total=getTotal(blogs);
+    // console.log(total)
     return (
         <div>
             <div className='mx-[70px]'>
@@ -24,6 +37,7 @@ const Blogs = () => {
                             blogs.map( blog=> <BlogItem 
                               key={blog.id}
                                 Items={blog}
+                                hendleAddTocart={hendleAddTocart}
                             >        
                          </BlogItem>)
                         }
@@ -31,9 +45,9 @@ const Blogs = () => {
                     </div>
 
                     </div>
-                    <div  className='col-span-1 p-5 bg-green-100'>
+                    <div  className='col-span-1 p-5 bg-green-100 sticky top-0'>
                     <div>
-                         <h1> Blog Qunatity: </h1>
+                       <Cart cart={cart}></Cart>
                     </div>
 
                     </div>       

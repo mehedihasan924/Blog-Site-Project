@@ -15,8 +15,6 @@ const storedCart=localStorage.getItem('shopping-Cart');
     else{
         shoppingCart={};
     }
-
-
 // add na takle new add hobe,, takle ***
     const quantity=shoppingCart[id]
 //    const quantity=localStorage.getItem(id)
@@ -46,5 +44,10 @@ const removeFromDb=(id)=>{
         }
     }
 }
+const getTotalPrice=products=>{
+    const reducer=(previous, current)=>previous+current.price;
+    const total=products.reduce(reducer, 0);
+    return total;
+}
 
-export {addToDb,removeFromDb }
+export {addToDb,removeFromDb, getTotalPrice as getTotal } 
