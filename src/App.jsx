@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import Blogs from './Component/Blogs/Blogs'
+import Header from './Component/Header/Header'
+import { Outlet } from 'react-router-dom'
 
 function App() {
 
 
   return (
     <>  
-      <Blogs> </Blogs>
+      <Header></Header>
+      <Outlet> </Outlet>
     </>
   )
 }
