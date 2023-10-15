@@ -1,141 +1,58 @@
 [
     {
-       "id":1,
-       "title":" Man's  Sneaker",
-       "name": " Mehedi Hasan",
-       "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-       "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-       "quantity":1,
-       "price": 50,
-       "shipping":50
-     
-   },
-   {
-    "id":2,
-    "title":" Man's  Sneaker",
-    "name": " Khaled Hussain",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1,
-    "price": 500,
-    "shipping":50
-   },
-   {
-    "id":3,
-    "title":" Man's  Sneaker",
-    "name": " Salman",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1,
-    "price": 550,
-    "shipping":50
-   },
-   {
-    "id":4,
-       "title":" Man's  Sneaker",
-       "name": " Sakil",
-       "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-       "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-       "quantity":1,
-       "price": 100,
-       "shipping":50
-   },
-   {
-    "id":5,
-    "title":" Man's  Sneaker",
-    "name": " Sakib",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1,
-    "price": 580,
-    "shipping":50
-   },
-   {
-    "id":6,
-    "title":" Man's  Sneaker",
-    "name": " Tamim",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1,
-    "shipping":50
-   },
-   {
-    "id":7,
-    "title":" Man's  Sneaker",
-    "name": " Farhan",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1,
-    "price": 450
-   },
-   {
-    "id":8,
-    "title":" Man's  Sneaker",
-    "name": "Marjan",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1
-   },
-   {
-    "id":9,
-    "title":" Man's  Sneaker",
-    "name": " Johir",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1,
-    "price": 510
-   },
-   {
-    "id":10,
-    "title":" Man's  Sneaker",
-    "name": "Robin",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1,
-    "price": 50
-   },
-   {
-    "id":11,
-    "title":" Man's  Sneaker",
-    "name": "Saiful",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1
-   },
-   {
-    "id":12,
-    "title":" Man's  Sneaker",
-    "name": "salman miya",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1,
-    "price": 100
-   },
-   {
-    "id":13,
-    "title":" Man's  Sneaker",
-    "name": "Sakil Ahmed",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1
-   },
-   {
-    "id":14,
-    "title":" Man's  Sneaker",
-    "name": "Sukur ",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1,
-    "price": 11
-   },
-   {
-    "id":15,
-    "title":" Man's  Sneaker",
-    "name": " sumon Ahmed ",
-    "img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "admin_img" :"https://media.istockphoto.com/id/1140058276/photo/walker-canyon-poppies.webp?s=170667a&w=0&k=20&c=qlXY5udtuL-umMEBJB3MoR9W7ToyoLfCy7wGue4F8F0=",
-    "quantity":1,
-    "price": 101
-
-   }
-   ]
+      "_id": "623853b2614ad5aba311fdd1",
+      "index": 0,
+      "price": 14,
+      "picture": "https://i.pinimg.com/originals/9f/3d/13/9f3d13912d3cf78e4c87975bcebc1fee.jpg",
+      "name": "Just Chill",
+      "gender": "Just Chill"
+    },
+    {
+      "_id": "623853b2578e9e6ad1ae0dd5",
+      "index": 1,
+      "picture": "https://render.fineartamerica.com/images/rendered/default/t-shirt/23/30/images/artworkimages/medium/1/coffee-coding-syntax-aadil-farooq-transparent.png?targetx=0&targety=0&imagewidth=430&imageheight=516&modelwidth=430&modelheight=575",
+      "name": "Keep Coding",
+      "price": 27,
+      "gender": "Keep Coding"
+    },
+    {
+      "_id": "623853b21fb149d2ee7b76c7",
+      "index": 2,
+      "picture": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "name": "Black",
+      "price": 24,
+      "gender": ""
+    },
+    {
+      "_id": "623853b2e91c8de578c9245e",
+      "index": 3,
+      "picture": "https://5.imimg.com/data5/SH/GC/MY-8764775/mens-t-shirt-500x500.jpg",
+      "name": "Mix Yellow",
+      "price": 14,
+      "gender": "Mix Yellow"
+    },
+    {
+      "_id": "623853b2239582e48409ccc6",
+      "index": 4,
+      "price": 34,
+      "picture": "https://www.billbazar.com.bd/public/uploads/all/8hgD0lQGODVXbB5sokhvwr7mUNjBx7pEHusuyGZj.webp",
+      "name": "Bachelor",
+      "gender": "male"
+    },
+    {
+      "_id": "623853b2cdda0d5bc294f791",
+      "index": 5,
+      "picture": "https://m.media-amazon.com/images/I/61GMJ+3ekAS._AC_UL320_.jpg",
+      "name": "Right Price",
+      "price": 141,
+      "gender": "male"
+    },
+    {
+      "_id": "623853b2736f19fd4eb8d44a",
+      "index": 6,
+      "price": 41,
+      "picture": "https://i.pinimg.com/236x/af/96/95/af9695e0116a1d859336024e6cdcea10.jpg",
+      "name": "Black Skull",
+      "gender": "female"
+    }
+  ]
