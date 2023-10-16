@@ -1,0 +1,12 @@
+.grendpa,.grendpa div{
+  border: 2px solid orange;
+  padding: 10px;
+  margin: 20px ;
+  border-radius: 10px;
+  text-align: center;
+}
+.flex{
+    display: flex;
+
+ 
+}

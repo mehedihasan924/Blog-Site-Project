@@ -9,7 +9,11 @@ const Cart = ({cart,hendleRemoveFromCart}) => {
     }
     return (
         <div>
-            <h1>Order summery {cart.length}</h1>
+                <h1 className={`bold bordered ${cart.length===1 ? 'div-greeen':'div-yellow' }`}> Shopping Cart</h1>
+
+
+             {/* Cndititional CSS  */}
+            <h1 className={cart.length===1? ' bg-slate-300': 'bg-red-500'}>Order summery {cart.length}</h1>
             {/* Cndition Set */}
                 {
                 cart.length>2 ? <span> Good Selling</span>:<span> Bed Selling</span>
@@ -44,3 +48,7 @@ export default Cart;
 // 2. ternary operator:condition ? "for true ": "false"
 // 3. logical &&( if thecondition display)
 // 4. logial or || useed
+
+// @@ Conditional CSS
+// 1. use terrnary
+// 2.ternary templet sting

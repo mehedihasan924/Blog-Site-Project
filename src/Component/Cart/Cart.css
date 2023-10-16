@@ -3,3 +3,9 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.div-greeen{
+    background-color: green;
+}
+.div-yellow{
+    background-color: yellow;
+}

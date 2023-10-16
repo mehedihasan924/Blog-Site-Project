@@ -8,7 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import OrderReview from './Component/OrderReview/OrderReview.jsx'
-
+import Grendpa from './Component/Grendpa/Grendpa.jsx'
 
 
 const router = createBrowserRouter([
@@ -24,6 +24,10 @@ const router = createBrowserRouter([
        { 
         path:"/review",
         element:<OrderReview></OrderReview>
+      },
+      { 
+        path:"/grendpa",
+        element:<Grendpa></Grendpa>
       },
       
     ]
